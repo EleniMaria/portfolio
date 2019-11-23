@@ -1,0 +1,100 @@
+header {
+  text-align: center;
+}
+
+body {
+  font-family: 'Qwigley';
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.role {
+  font-size: 8mm;
+}
+
+.tags {
+  font-size: 5mm;
+}
+.hashtag {
+  color: magenta;
+  font-style: italic;
+}
+
+.picture {
+  max-height: 600px;
+  max-width: auto;
+}
+
+.emdesigns-logo {
+  max-width: 600px;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .emdesigns-logo {
+    max-height: 150px;
+    width: auto;
+  }
+  .picture {
+    max-height: 175px;
+    max-width: auto;
+  }
+  .skills {
+    background-color: rgb(69, 172, 69);
+    color: whitesmoke;
+    padding: 3vh 3vw;
+    font-size: 4mm;
+  }
+  .about {
+    background-color: rgb(29, 54, 139);
+    color: whitesmoke;
+    padding: 3vh 3vw;
+    font-size: 5mm;
+  }
+}
+
+div {
+  text-decoration: underline;
+  font-family: 'Qwigley', cursive;
+}
+
+.skills {
+  background-color: rgb(69, 172, 69);
+  color: whitesmoke;
+  padding: 3vh 3vw;
+}
+.about {
+  background-color: rgb(29, 54, 139);
+  color: whitesmoke;
+  padding: 3vh 3vw;
+}
+a,
+a:link,
+a:visited,
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  text-shadow: 0px 1px 0px #daf108;
+}
+a:active {
+  text-decoration: none;
+  margin: 30px;
+  padding: 6px 24px;
+  color: black;
+}
+.logo {
+  position: relative;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 10mm;
+  min-height: 1mm;
+  padding-top: 3vh;
+}
