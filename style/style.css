@@ -21,6 +21,7 @@ body {
 .tags {
   font-size: 5mm;
 }
+
 .hashtag {
   color: magenta;
   font-style: italic;
@@ -69,11 +70,13 @@ div {
   color: whitesmoke;
   padding: 3vh 3vw;
 }
+
 .about {
   background-color: rgb(29, 54, 139);
   color: whitesmoke;
   padding: 3vh 3vw;
 }
+
 a,
 a:link,
 a:visited,
@@ -89,6 +92,7 @@ a:active {
   padding: 6px 24px;
   color: black;
 }
+
 .logo {
   position: relative;
   background-position: 50% 50%;
