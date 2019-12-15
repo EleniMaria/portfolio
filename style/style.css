@@ -38,6 +38,12 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+
+  iframe {
+    max-height: 220px;
+    width: auto;
+  }
+
   .emdesigns-logo {
     max-height: 150px;
     width: auto;
